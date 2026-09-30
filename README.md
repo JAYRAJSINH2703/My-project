@@ -29,7 +29,8 @@ It also calculates an approximate birth year from the entered age.
 
 ## 📸 Project Screenshot
 
-file:///Users/jayrajsinh/Downloads/My-project-README-with-screenshot/project-screenshot.png
+
+![Interactive Personal Data Collector Screenshot](project-screenshot.png)
 
 
 ## ✨ Features
