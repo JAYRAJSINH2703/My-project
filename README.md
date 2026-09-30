@@ -1,61 +1,58 @@
 # 🐍 Interactive Personal Data Collector
 
-A simple **Python beginner project** that collects basic information from the user and displays the entered data along with its **data type** and **memory address**.
+A simple beginner-friendly **Python project** that collects personal information from the user and displays the entered values, their data types, and their memory addresses.
 
 ## 🔗 Live Demo
 
-👉 **Run the project online:**
+▶️ **Run the project online:**  
 https://onlinegdb.com/B2Z3w1t7v
 
-## 📌 GitHub Repository
+## 📂 GitHub Repository
 
-👉 **GitHub:**
+🔗 **Repository:**  
 https://github.com/JAYRAJSINH2703/My-project
-
----
 
 ## 📖 About the Project
 
-The **Interactive Personal Data Collector** is a Python program designed to demonstrate basic Python concepts through an interactive program.
+The **Interactive Personal Data Collector** is a console-based Python program created to demonstrate basic Python programming concepts.
 
 The program asks the user to enter:
 
-* Name
-* Age
-* Height
-* Favourite Number
+- Name
+- Age
+- Height in meters
+- Favourite number
 
-After collecting the information, it displays the entered values, their Python data types, and their memory addresses.
+After collecting the information, the program displays the entered values along with their **data types** and **memory addresses** using Python's `type()` and `id()` functions.
 
-It also approximately calculates the user's birth year based on the entered age.
+It also calculates an approximate birth year from the entered age.
 
----
+## 📸 Project Screenshot
+
+![Interactive Personal Data Collector Screenshot](project-screenshot.png)
 
 ## ✨ Features
 
-* 👤 Takes the user's name as input
-* 🎂 Takes the user's age
-* 📏 Takes height in meters
-* 🔢 Takes a favourite number
-* 🧩 Displays the data type of each value
-* 💾 Displays the memory address using Python's `id()` function
-* 📅 Calculates an approximate birth year
-* 🖥️ Provides an interactive console-based experience
-
----
+- 👤 Takes the user's name as input
+- 🎂 Takes the user's age as input
+- 📏 Takes height in meters
+- 🔢 Takes a favourite number
+- 🧩 Displays the data type of each value
+- 💾 Displays the memory address using `id()`
+- 📅 Calculates an approximate birth year
+- 🖥️ Runs in the Python console
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose                            |
-| ---------- | ---------------------------------- |
-| Python     | Programming Language               |
-| `input()`  | Taking user input                  |
-| `int()`    | Converting input to integer        |
-| `float()`  | Converting input to decimal number |
-| `type()`   | Checking data type                 |
-| `id()`     | Getting object's memory identity   |
-
----
+| Technology / Function | Purpose |
+|---|---|
+| Python | Programming language |
+| `input()` | Takes input from the user |
+| `int()` | Converts input into an integer |
+| `float()` | Converts input into a decimal number |
+| `type()` | Displays the data type |
+| `id()` | Displays the object's identity |
+| `print()` | Displays output |
 
 ## 📂 Project Structure
 
@@ -63,13 +60,11 @@ It also approximately calculates the user's birth year based on the entered age.
 My-project/
 │
 ├── My_Project.py
-│
-└── README.md
+├── README.md
+└── project-screenshot.png
 ```
 
----
-
-## 💻 How to Run
+## 💻 How to Run the Project
 
 ### 1. Clone the repository
 
@@ -77,126 +72,61 @@ My-project/
 git clone https://github.com/JAYRAJSINH2703/My-project.git
 ```
 
-### 2. Open the project
+### 2. Open the project folder
 
 ```bash
 cd My-project
 ```
 
-### 3. Run the Python file
+### 3. Run the Python program
 
 ```bash
 python My_Project.py
 ```
 
----
-
-## 🧑‍💻 Example
-
-```text
-Welcome to the Interactive Personal Data collector !
-
-Please Enter Your Name : Jayraj
-Please Enter Your Age : 18
-Please Enter You Height in meters : 1.75
-Please Enter Your Favourite Number : 7
-
-Thank You ! Here is the information that we collect from you
-
-Name : Jayraj <class 'str'>
-Age : 18 <class 'int'>
-Height : 1.75 <class 'float'>
-Favourite Number : 7 <class 'int'>
-
-Your Birth Year is Approximately: 2008 (Based On Your Age)
-
-Thank You For Using Personal Data Collector
-```
-
----
-
 ## 📚 Python Concepts Demonstrated
 
-### 1. Variables
+### Variables
+The program stores user information in variables such as `Name`, `Age`, `Height`, and `Fav`.
 
-The program stores user information in variables such as:
+### User Input
+The `input()` function is used to collect information from the user.
 
-```python
-Name
-Age
-Height
-Fav
-```
+### Type Casting
+`int()` and `float()` are used to convert user input into the required data types.
 
-### 2. User Input
+### Data Types
+The `type()` function is used to identify the type of each value.
 
-The `input()` function is used to take information from the user.
+### Object Identity
+The `id()` function is used to display the identity of Python objects.
 
-```python
-Name = input("Please Enter Your Name :")
-```
-
-### 3. Type Casting
-
-The program converts input into integer and floating-point values.
-
-```python
-Age = int(input("Please Enter Your Age :"))
-Height = float(input("Please Enter You Height in meters :"))
-```
-
-### 4. Data Types
-
-The `type()` function displays the data type of a variable.
-
-```python
-type(Name)
-type(Age)
-type(Height)
-```
-
-### 5. Memory Identity
-
-The `id()` function displays the identity associated with an object.
-
-```python
-id(Name)
-id(Age)
-```
-
-### 6. Basic Calculation
-
+### Basic Calculation
 The program calculates an approximate birth year using:
 
 ```python
 age = 2026 - Age
 ```
 
----
-
 ## 🎯 Learning Objectives
 
 This project helps beginners understand:
 
-* Python variables
-* User input
-* Type casting
-* String, integer and float data types
-* The `type()` function
-* The `id()` function
-* Basic arithmetic operations
-* Console output using `print()`
-
----
+- Python variables
+- User input
+- Type casting
+- Strings, integers, and floating-point numbers
+- The `type()` function
+- The `id()` function
+- Basic arithmetic operations
+- `print()` and console output
 
 ## 👨‍💻 Author
 
 **Jayrajsinh**
 
-GitHub:
+GitHub:  
 https://github.com/JAYRAJSINH2703
-
----
 
 ## 📄 License
 
